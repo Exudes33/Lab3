@@ -1,0 +1,26 @@
+n = int(input())
+arr = list(map(int, input().split()))
+q = int(input())
+
+
+for _ in range(q):
+    command = input().split()
+    op = command[0]
+    
+
+    if op == "add":
+        val = int(command[1]) 
+        arr = list(map(lambda a: a + val, arr))
+        
+    elif op == "multiply":
+        val = int(command[1])
+        arr = list(map(lambda a: a * val, arr))
+        
+    elif op == "power":
+        val = int(command[1])
+        arr = list(map(lambda a: a ** val, arr))
+        
+    elif op == "abs":
+        arr = list(map(lambda a: abs(a), arr))
+
+print(*(arr))
