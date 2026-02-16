@@ -1,17 +1,16 @@
 def is_valid(n):
-    s = str(n)
-    for digit in s:
+    c = str(n)
+    for digit in c:
         if int(digit) % 2 != 0:
             return False
     return True
 
 
-try:
-    input_n = input().strip()
-    
+
+input_n = input()
+
     if is_valid(input_n):
         print("Valid")
     else:
         print("Not valid")
-except EOFError:
-    pass
+
