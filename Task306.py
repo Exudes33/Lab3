@@ -11,9 +11,9 @@ class Rectangle(Shape):
     def area(self):
         return self.length * self.width
 
-vvod = list(map(int, input().split()))
-L = vvod[0]
-W = vvod[1]
+a = list(map(int, input().split()))
+L = a[0]
+W = a[1]
 
 
 rect = Rectangle(L, W)
