@@ -12,9 +12,9 @@ class Student(Person):
        
         print(f"Student: {self.name}, GPA: {self.gpa}")
 
-vvod = input().split()
-имя = vvod[0]
-оценка = vvod[1]
+a = input().split()
+имя = a[0]
+оценка = a[1]
 
 student = Student(имя, оценка)
 student.display()
