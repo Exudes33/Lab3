@@ -1,4 +1,3 @@
-# Read input
 n = int(input())
 arr = list(map(int, input().split()))
 q = int(input())
