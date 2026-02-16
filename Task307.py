@@ -1,4 +1,4 @@
-import math 
+.pyimport math 
 
 class Point:
     def __init__(self, x, y):
