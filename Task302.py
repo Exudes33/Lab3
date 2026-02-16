@@ -6,12 +6,10 @@ def isUsual(num):
     
     return num == 1
 
-try:
-    n = int(input())
-    
+n = int(input())
+
     if isUsual(n):
         print("Yes")
     else:
         print("No")
-except EOFError:
-    pass
+
