@@ -1,7 +1,4 @@
-.pyclass StringHandler:
-    def __init__(self):
-        self.s = ""
-
+class StringHandler:
     def getString(self):
         self.s = input()
 
@@ -9,7 +6,5 @@
         print(self.s.upper())
 
 handler = StringHandler()
-
 handler.getString()
-
 handler.printString()
