@@ -11,9 +11,9 @@ class Account:
         else:
             return "Insufficient Funds"
 
-vvod = input().split()
-initial_balance = int(vvod[0])
-withdraw_amount = int(vvod[1])
+a = input().split()
+initial_balance = int(a[0])
+withdraw_amount = int(a[1])
 
 
 my_account = Account("User", initial_balance)
