@@ -1,4 +1,4 @@
-class StringHandler:
+.pyclass StringHandler:
     def __init__(self):
         self.s = ""
 
